@@ -1,9 +1,17 @@
 # gradle-issue-1498
 Test project for https://github.com/gradle/gradle/issues/1498
 
-Build is successful when Gradle 3.1 is used.
+Build is successful when Gradle 3.3 is used.
 ```
-> gradle build
+> gradle wrapper --gradle-version 3.3
+:wrapper
+
+BUILD SUCCESSFUL
+
+Total time: 3.677 secs
+tdxc@VS-CLOUD-D0662 C:\git_wa\gs-spring-boot\complete
+> gradlew build
+Starting a Gradle Daemon (subsequent builds will be faster)
 :compileJava UP-TO-DATE
 :compileScala
 :processResources UP-TO-DATE
