@@ -2,6 +2,7 @@
 Test project for https://github.com/gradle/gradle/issues/1498
 
 Build is successful when Gradle 3.1 is used.
+```
 > gradle build
 :compileJava UP-TO-DATE
 :compileScala
@@ -24,8 +25,10 @@ Build is successful when Gradle 3.1 is used.
 BUILD SUCCESSFUL
 
 Total time: 30.402 secs
+```
 
 Failes when Gradle 3.4 is used:
+```
 > c:\gradle-3.4\bin\gradle build
 :compileJava NO-SOURCE
 :compileScala
@@ -49,3 +52,4 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 BUILD FAILED
 
 Total time: 9.199 secs
+```
